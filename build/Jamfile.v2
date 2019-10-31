@@ -177,6 +177,20 @@ alias asm_sources
    ;
 
 # ARM64
+# ARM/AAPCS/PE
+alias asm_sources
+   : asm/make_arm64_aapcs_pe_armasm64.asm
+     asm/jump_arm64_aapcs_pe_armasm64.asm
+     asm/ontop_arm64_aapcs_pe_armasm64.asm
+     untested.cpp
+   : <abi>aapcs
+     <address-model>64
+     <architecture>arm64
+     <binary-format>pe
+     <toolset>msvc
+   ;
+
+# ARM64
 # ARM64/AAPCS/ELF
 alias asm_sources
    : asm/make_arm64_aapcs_elf_gas.S
