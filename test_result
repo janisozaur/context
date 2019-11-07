@@ -1,0 +1,13 @@
+Running 1 test case...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+Entering test module "Master Test Suite"
+..\src\ost-1.71.0-0989648e48\test\test_fcontext.cpp(337): Entering test suite "Boost.Context_ fcontext test suite"
+..\src\ost-1.71.0-0989648e48\test\test_fcontext.cpp(341): Entering test case "test_result"
+../src/ost-1.71.0-0989648e48/test/test_fcontext.cpp(232): info: check ctx has passed
+../src/ost-1.71.0-0989648e48/test/test_fcontext.cpp(235): info: check 7 == result has passed
+***************************************************
+..\src\ost-1.71.0-0989648e48\test\test_fcontext.cpp(341): Leaving test case "test_result"; testing time: 1056us
+..\src\ost-1.71.0-0989648e48\test\test_fcontext.cpp(337): Leaving test suite "Boost.Context_ fcontext test suite"; testing time: 6596us
+Leaving test module "Master Test Suite"; testing time: 7269us

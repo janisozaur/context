@@ -1,0 +1,14 @@
+Running 1 test case...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+Entering test module "Master Test Suite"
+..\src\ost-1.71.0-0989648e48\test\test_fcontext.cpp(337): Entering test suite "Boost.Context_ fcontext test suite"
+..\src\ost-1.71.0-0989648e48\test\test_fcontext.cpp(349): Entering test case "test_snprintf"
+../src/ost-1.71.0-0989648e48/test/test_fcontext.cpp(180): info: check 0 < sizeof( buf) has passed
+../src/ost-1.71.0-0989648e48/test/test_fcontext.cpp(181): info: check std::string("sqrt(2) = 1.41") == std::string( buf, 14) has passed
+../src/ost-1.71.0-0989648e48/test/test_fcontext.cpp(188): info: check std::string("0x0BCDEF1234567890") == std::string( buf, 18) has passed
+***************************************************
+..\src\ost-1.71.0-0989648e48\test\test_fcontext.cpp(349): Leaving test case "test_snprintf"; testing time: 12153us
+..\src\ost-1.71.0-0989648e48\test\test_fcontext.cpp(337): Leaving test suite "Boost.Context_ fcontext test suite"; testing time: 14084us
+Leaving test module "Master Test Suite"; testing time: 14897us
