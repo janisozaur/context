@@ -1,0 +1,36 @@
+Running 12 test cases...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+Entering test module "Master Test Suite"
+..\src\ost-1.71.0-0989648e48\test\test_fcontext.cpp(337): Entering test suite "Boost.Context_ fcontext test suite"
+..\src\ost-1.71.0-0989648e48\test\test_fcontext.cpp(338): Entering test case "test_setup"
+../src/ost-1.71.0-0989648e48/test/test_fcontext.cpp(197): info: check ctx has passed
+****..\src\ost-1.71.0-0989648e48\test\test_fcontext.cpp(338): Leaving test case "test_setup"; testing time: 854us
+..\src\ost-1.71.0-0989648e48\test\test_fcontext.cpp(339): Entering test case "test_start"
+../src/ost-1.71.0-0989648e48/test/test_fcontext.cpp(206): info: check ctx has passed
+../src/ost-1.71.0-0989648e48/test/test_fcontext.cpp(208): info: check 0 == value1 has passed
+../src/ost-1.71.0-0989648e48/test/test_fcontext.cpp(210): info: check 1 == value1 has passed
+****..\src\ost-1.71.0-0989648e48\test\test_fcontext.cpp(339): Leaving test case "test_start"; testing time: 69333us
+..\src\ost-1.71.0-0989648e48\test\test_fcontext.cpp(340): Entering test case "test_jump"
+../src/ost-1.71.0-0989648e48/test/test_fcontext.cpp(219): info: check ctx has passed
+../src/ost-1.71.0-0989648e48/test/test_fcontext.cpp(220): info: check 0 == value1 has passed
+../src/ost-1.71.0-0989648e48/test/test_fcontext.cpp(222): info: check 1 == value1 has passed
+../src/ost-1.71.0-0989648e48/test/test_fcontext.cpp(224): info: check 2 == value1 has passed
+****..\src\ost-1.71.0-0989648e48\test\test_fcontext.cpp(340): Leaving test case "test_jump"; testing time: 433us
+..\src\ost-1.71.0-0989648e48\test\test_fcontext.cpp(341): Entering test case "test_result"
+../src/ost-1.71.0-0989648e48/test/test_fcontext.cpp(232): info: check ctx has passed
+../src/ost-1.71.0-0989648e48/test/test_fcontext.cpp(235): info: check 7 == result has passed
+****..\src\ost-1.71.0-0989648e48\test\test_fcontext.cpp(341): Leaving test case "test_result"; testing time: 276us
+..\src\ost-1.71.0-0989648e48\test\test_fcontext.cpp(342): Entering test case "test_arg"
+../src/ost-1.71.0-0989648e48/test/test_fcontext.cpp(244): info: check ctx has passed
+../src/ost-1.71.0-0989648e48/test/test_fcontext.cpp(247): info: check i == result has passed
+****..\src\ost-1.71.0-0989648e48\test\test_fcontext.cpp(342): Leaving test case "test_arg"; testing time: 283us
+..\src\ost-1.71.0-0989648e48\test\test_fcontext.cpp(343): Entering test case "test_transfer"
+../src/ost-1.71.0-0989648e48/test/test_fcontext.cpp(256): info: check ctx has passed
+../src/ost-1.71.0-0989648e48/test/test_fcontext.cpp(259): info: check 10 == result has passed
+../src/ost-1.71.0-0989648e48/test/test_fcontext.cpp(263): info: check 14 == result has passed
+*****..\src\ost-1.71.0-0989648e48\test\test_fcontext.cpp(343): Leaving test case "test_transfer"; testing time: 343us
+..\src\ost-1.71.0-0989648e48\test\test_fcontext.cpp(344): Entering test case "test_exception"
+../src/ost-1.71.0-0989648e48/test/test_fcontext.cpp(272): info: check ctx has passed
+
